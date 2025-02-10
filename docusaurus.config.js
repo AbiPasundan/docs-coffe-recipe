@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Coffe Recipe',
   tagline: 'Find the Best Coffe Recipe',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/brand/logotransparent.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -73,25 +73,27 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Coffe Recipe',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/brand/logotransparent.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Hello World', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'Facebook',
+            label: 'Coffe Recipe',
             position: 'right',
           },
         ],
